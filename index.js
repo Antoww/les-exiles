@@ -47,6 +47,7 @@ bot.on("message", async message => {
         embed.addField("Commandes d'aide", "/help : Affiche ce menu.\n ")
         embed.addField("Commandes Utilitaires", "/utilitaires : Affiche le menu d'aide des commandes utilitaires \n")
         embed.addField("Commandes Modération", "/mod : Affiche le menu d'aide des commandes d'aide de la modération.\n")
+        .setFooter("Bot par Antow")
         message.channel.send(embed)
     }
     //utilitaries
